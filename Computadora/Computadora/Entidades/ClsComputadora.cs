@@ -19,7 +19,7 @@ namespace Computadora.Entidades
         private String entradaUsb;
         private String bateria;
 
-        public string MemoriaRam { get => memoriaRam; set => memoriaRam = value; }
+        
         public string TarjetaMadre { get => tarjetaMadre; set => tarjetaMadre = value; }
         public string Procesador { get => procesador; set => procesador = value; }
         public string DiscoDuro { get => discoDuro; set => discoDuro = value; }
@@ -29,5 +29,6 @@ namespace Computadora.Entidades
         public string TarjetaGrafica { get => tarjetaGrafica; set => tarjetaGrafica = value; }
         public string EntradaUsb { get => entradaUsb; set => entradaUsb = value; }
         public string Bateria { get => bateria; set => bateria = value; }
+        public int MemoriaRam { get => memoriaRam; set => memoriaRam = value; }
     }
 }

@@ -13,7 +13,7 @@ namespace Computadora
         static void Main(string[] args)
         {
 
-            Entidades.ClsComputadora clscomputadora = new ClsComputadora();
+            ClsComputadora clscomputadora = new ClsComputadora();
             NClsComputadora nclscomputadora = new NClsComputadora();
 
             clscomputadora.MemoriaRam = 8;

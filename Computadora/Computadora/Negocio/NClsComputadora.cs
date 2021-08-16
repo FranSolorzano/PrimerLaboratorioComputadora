@@ -37,7 +37,7 @@ namespace Computadora.Negocio
 
         public String Encender(ClsComputadora computadora)
         {
-            return "La computadora con memoria RAM de " + computadora.MemoriaRam + "y micro procesador " + computadora.Procesador + "esta encendida"; 
+            return "La computadora con memoria RAM de " + computadora.MemoriaRam + " y micro procesador " + computadora.Procesador + " esta encendida"; 
 
         }
     }
