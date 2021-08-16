@@ -14,32 +14,33 @@ namespace Computadora.Negocio
 
         public String Apagar(ClsComputadora computadora)
         {
-            return "Se esta apagando el equipo " + computadora.MemoriaRam;
+            return "El equipo " + computadora.MemoriaRam + "Se esta apagando ";
 
         }
 
         public String monitor(ClsComputadora computadora)
         {
-            return "El monitor no esta conectado " + computadora.Monitor;
+            return "El monitor "+ computadora.Monitor + "no esta conectado ";
 
         }
 
         public String tarjeta(ClsComputadora computadora)
         {
-            return "La tarjeta grafica esta fallando " + computadora.TarjetaGrafica;
+            return "La tarjeta grafica " + computadora.TarjetaGrafica + "esta fallando ";
 
         }
 
         public String mouse(ClsComputadora computadora)
         {
-            return "El mouse no esta conectado " + computadora.Mouse;
+            return "El mouse  " + computadora.Mouse + "No esta conectado ";
         }
 
+        public String Encender(ClsComputadora computadora)
+        {
+            return "La computadora con memoria RAM de " + computadora.MemoriaRam + "y micro procesador " + computadora.Procesador + "esta encendida"; 
 
-
-
+        }
     }
-
 
 
 
