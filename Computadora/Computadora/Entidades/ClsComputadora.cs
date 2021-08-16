@@ -8,7 +8,7 @@ namespace Computadora.Entidades
 {
     class ClsComputadora
     {
-        private String memoriaRam;
+        private int memoriaRam;
         private String tarjetaMadre;
         private String procesador;
         private String discoDuro;
